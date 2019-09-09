@@ -1,0 +1,155 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1ro de Primaria</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    <style>
+    html {
+      box-sizing: border-box;
+      height: 100%;
+  }
+  *, *:before, *:after {
+      box-sizing: inherit;
+  }
+  body {
+    background-color: rgb(252, 6, 6, .1);
+      font-family: Arial, Helvetica, sans-serif;
+      color: #ffffff;
+      height: 100%;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e570e7+0,c85ec7+51,a849a3+100 */
+  background:white; /* Old browsers */
+  background: -moz-linear-gradient black; /* FF3.6-15 */
+  background: -webkit-linear-gradient black; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient black; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#a849a3',GradientType=0 ); /* IE6-9 */
+      background-attachment: fixed;
+  }
+  
+  header {
+      text-align: center;
+      padding: 10px 0;
+  }
+  img {
+      width: 100%;
+      max-width: 100px;
+  }
+  .contenedor {
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+ 
+  h2 {
+      text-align: center;
+      text-transform: uppercase;
+  }
+  .primero-primaria {
+      padding: 0;
+      list-style: none;
+  }
+  .primero-primaria li {
+      float: left;
+      width: 50%;
+      padding: 20px;
+      text-align: center;
+  }
+  /** 2(0) + 1 **/
+   .primero-primaria li:nth-child(2n+1) {
+      clear: both;
+  }
+/*   
+  @media (min-width:768px){
+      .primero-primaria li {
+          width: 33.3%;
+      }
+      .primero-primaria li:nth-child(2n+1) {
+          clear: unset;
+      }
+      .primero-primaria li:nth-child(3n+1) {
+          clear: both;
+      }
+  } */ 
+  
+  .primero-primaria li img{
+      border: 3px solid red;
+      transition: border-color .3s ease-in-out;
+  }
+  .primero-primaria li img:hover {
+      border: 3px solid red;
+  }
+  .primero-primaria li p {
+      font-size: 28px;
+      font-weight: bold;
+      margin: 10px 0 0 0;
+  }
+  
+  .boton {
+      background-color: lightblue;
+      padding: 10px 40px;
+      margin-top: 10px;
+      display: inline-block;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+      color: red;
+      transition: background-color .3s ease-in-out;
+  }
+  .boton:hover {
+      background-color: blue;
+  }
+
+  h2 {
+      background-color: red;
+  }
+
+  h2, p {
+      color: black;
+  }
+
+</style>
+</head>
+<body>
+
+    <div class="contenedor">
+        
+        <main>
+            <h2>3er Cuatrimestre</h2>
+            <ul class="primero-primaria">
+                <li>
+                    <img src="img/logo.png" alt="producto">
+                    <p>Español</p>
+                    <a href="#" class="boton">Acceso</a>
+                </li>
+                <li>
+                    <img src="img/logo.png" alt="producto">
+                    <p>Matemáticas</p>
+                    <a href="#" class="boton">Acceso</a>
+                </li>
+                <li>
+                    <img src="img/logo.png" alt="producto">
+                    <p>Geografía</p>
+                    <a href="#" class="boton">Acceso</a>
+                </li>
+                <li>
+                    <img src="img/logo.png" alt="producto">
+                    <p>Historia</p>
+                    <a href="#" class="boton">Acceso</a>
+                </li>
+                <li>
+                    <img src="img/logo.png" alt="producto">
+                    <p>Programación</p>
+                    <a href="#" class="boton">acceso</a>
+                </li>
+                <li>
+                    <img src="img/logo.png" alt="producto">
+                    <p>Lógica</p>
+                    <a href="#" class="boton">acceso</a>
+                </li>
+                
+            </ul>
+        </main>
+    </div>
+</body>
+</html>
